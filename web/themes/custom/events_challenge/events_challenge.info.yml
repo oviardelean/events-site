@@ -1,0 +1,5 @@
+name: Events Challenge
+type: theme
+description: 'Theme for events challenge'
+core_version_requirement: ^8.9 || ^9.0 || ^10
+base theme: olivero

@@ -1,0 +1,62 @@
+uuid: f8dcd1b9-3ba2-4bd7-a3d5-08cc9c12473e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.event_overview
+    - field.field.node.events.body
+    - field.field.node.events.field_artist
+    - field.field.node.events.field_date
+    - field.field.node.events.field_event_website
+    - field.field.node.events.field_image
+    - field.field.node.events.field_location
+    - field.field.node.events.field_organizer
+    - field.field.node.events.field_title
+    - node.type.events
+  module:
+    - datetime
+    - user
+id: node.events.event_overview
+targetEntityType: node
+bundle: events
+mode: event_overview
+content:
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_organizer:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_artist: true
+  field_event_website: true
+  field_image: true
+  links: true

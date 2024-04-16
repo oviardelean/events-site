@@ -1,4 +1,4 @@
-uuid: 5b125fb4-29de-455a-854b-391a482964c0
+uuid: 41263e62-eaa9-45f2-88ac-567a5df4f68f
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

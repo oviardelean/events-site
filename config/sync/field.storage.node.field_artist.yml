@@ -1,0 +1,19 @@
+uuid: acfe44f7-e42f-43ce-88f6-d3b17c510fa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - events_module
+    - node
+id: node.field_artist
+field_name: field_artist
+entity_type: node
+type: artist_item
+settings: {  }
+module: events_module
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,4 @@
+services:
+  events_module.artists:
+    class: Drupal\events_module\Services\EventsUtils
+    arguments: ['@database', '@entity_type.manager']

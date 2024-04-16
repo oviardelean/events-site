@@ -1,0 +1,7 @@
+field.field_settings.artist_item:
+  type: mapping
+  label: 'Event Item field settings'
+  mapping:
+    artists:
+      type: string
+      label: 'artists'

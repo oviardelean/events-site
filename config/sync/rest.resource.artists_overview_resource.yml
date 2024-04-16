@@ -1,0 +1,18 @@
+uuid: 3d469f38-6454-4039-a59d-55ae98cb8ec5
+langcode: en
+status: true
+dependencies:
+  module:
+    - events_module
+    - serialization
+    - user
+id: artists_overview_resource
+plugin_id: artists_overview_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie
