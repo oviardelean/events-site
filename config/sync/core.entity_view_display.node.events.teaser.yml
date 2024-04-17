@@ -54,3 +54,4 @@ hidden:
   field_location: true
   field_organizer: true
   field_title: true
+  langcode: true

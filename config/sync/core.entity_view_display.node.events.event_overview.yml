@@ -59,4 +59,5 @@ hidden:
   field_artist: true
   field_event_website: true
   field_image: true
+  langcode: true
   links: true

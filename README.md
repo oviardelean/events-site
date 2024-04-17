@@ -11,9 +11,12 @@
 7. Added another module that I have from some of my previous challenge that include a programmatically created rest endpoint (with and without params)
 I thought to include it in this website, to outcase better how I work
 8. I didn't used dep injection for time consideration - I wanted to get it done faster. but you can observe that I used it on the fuel_calculator module
+Also didn't run phpcs so maybe not all cs is respected.
+### Note: the custom rest resources needs you to be authenticated or have the session cookie if you use postman.
+Simply retrieve session cookie id+value from browser and paste in Postman or use drush uli to login in site.
 
 ## What have been done:
-1. custome content type events with necessary fields
+1. custom content type events with necessary fields
 2. 2 custom field formatter/widgets and 1 custom field type for the artists
 3. one view exposing all fields and exported rest endpoint as asked
 4. I understood initally to expose artist json in a rest endpoint so I did it first and left it in the repo.
