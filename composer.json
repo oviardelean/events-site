@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^10.2",
         "drupal/devel": "^5.2",
         "drupal/devel_generate": "^5.2",
+        "drupal/install_profile_generator": "^4.0@alpha",
         "drupal/restui": "^1.21"
     },
     "conflict": {

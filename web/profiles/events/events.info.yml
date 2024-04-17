@@ -1,0 +1,4 @@
+name: events
+type: profile
+description: ''
+core_version_requirement: '>=10'
